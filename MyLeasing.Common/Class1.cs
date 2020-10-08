@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MyLeasing.Common
+﻿namespace MyLeasing.Common
 {
     public class Class1
     {

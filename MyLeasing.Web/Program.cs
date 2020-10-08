@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using MyLeasing.Web.Data;
 using MyLeasing.Web.Data.Entity;
 
 namespace MyLeasing.Web

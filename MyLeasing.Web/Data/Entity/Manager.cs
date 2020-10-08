@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace MyLeasing.Web.Data.Entity
+﻿namespace MyLeasing.Web.Data.Entity
 {
     public class Manager
     {

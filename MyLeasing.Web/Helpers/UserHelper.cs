@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Identity;
 using MyLeasing.Web.Data.Entity;
 using MyLeasing.Web.Models;
+using System.Threading.Tasks;
 
 namespace MyLeasing.Web.Helpers
 {
@@ -49,7 +45,7 @@ namespace MyLeasing.Web.Helpers
 
         public async Task<User> GetUserByEmailAsync(string email)
         {
-            return await _userManager.FindByEmailAsync(email);             
+            return await _userManager.FindByEmailAsync(email);
         }
 
         public async Task<bool> IsUserInRoleAsync(User user, string roleName)

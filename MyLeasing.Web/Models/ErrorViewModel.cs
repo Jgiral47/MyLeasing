@@ -1,5 +1,3 @@
-using System;
-
 namespace MyLeasing.Web.Models
 {
     public class ErrorViewModel

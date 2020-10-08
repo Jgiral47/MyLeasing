@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MyLeasing.Web.Data.Entity
 {
@@ -29,7 +26,7 @@ namespace MyLeasing.Web.Data.Entity
         public DateTime EndDate { get; set; }
 
         [Display(Name = "Is Active?")]
-        public bool IsActive { get; set; }        
+        public bool IsActive { get; set; }
 
         [Display(Name = "Start Date")]
         [Required(ErrorMessage = "The field {0} is mandatory.")]
